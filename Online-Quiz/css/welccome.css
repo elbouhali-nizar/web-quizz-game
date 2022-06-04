@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+
+body { 
+  background-color: #11155f;
+  margin: 0;
+  font-family: Noto Sans;
+}
+
+.header {
+  text-align: center;
+  overflow: hidden;
+  background-color: #11155f;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+.header a, .header .logo {
+  color: rgb(129, 118, 205);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+}
+
+.header .logo {
+  color:#fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.panel{
+  border-color:rgb(0, 0, 0);
+  margin:40px;
+  padding:40px;
+  font: 15px "Noto Sans";
+  }

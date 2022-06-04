@@ -1,0 +1,49 @@
+body { line-height: 1; margin: auto; padding: auto; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+a:link { text-decoration: none; }
+.intro { position: absolute; left: 0; top:35%; padding: 0 20px;  width: 100%;  text-align: center; }
+.logo-hem{
+    width: 150px;
+    position: fixed;
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+  }
+  h1::after {
+    content: '';
+    width: 200px;
+    display: block;
+    background: #1e2081;
+    height: 6px;
+    margin: 30px auto;
+    line-height: 1.1;
+  }
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #1e2081;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #1e2081;
+    
+  }
+  .btn:hover {
+    color: #000;
+    border-color: #fff;
+    background-color: #607d8b;
+  }
+  
+  
+  @media only screen and (max-width: 1000px) {
+    h1 {
+      font-size: 70px;
+    }
+  }
